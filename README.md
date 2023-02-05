@@ -38,7 +38,3 @@ This project is licensed under the ISC license.
 ### Author
 
 Felipe Santos
-# BFF-Backend-for-Frontend
-# BFF-Backend-for-Frontend
-# BFF-Backend-for-Frontend
-# BFF-Backend-for-Frontend

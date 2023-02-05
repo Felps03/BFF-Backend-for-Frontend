@@ -1,0 +1,37 @@
+{
+  "name": "bff",
+  "version": "1.0.0",
+  "description": "BFF stands for Backend for Frontend, it's an architecture pattern for separating server and client responsibilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.{js,json,md}\""
+  },
+  "keywords": [
+    "BFF architecture",
+    "Backend for Frontend",
+    "Server and client separation",
+    "Express",
+    "JavaScript",
+    "Node.js",
+    "API design",
+    "Microservices",
+    "Architecture pattern",
+    "RESTful API"
+  ],
+  "author": "Felipe Santos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.3"
+  }
+}
