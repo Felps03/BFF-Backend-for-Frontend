@@ -26,4 +26,16 @@ describe('Test the /api/data route', () => {
     expect(response.statusCode).toBe(200);
     expect(response.body).toEqual({ message: 'Web browser detected' });
   });
+
+  test('It should return a JSON with message "Other device detected"', async () => {
+    const response = await request(app)
+      .get('/api/data')
+      .set(
+        'User-Agent',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.1 Safari/603.1.30'
+      );
+
+    expect(response.statusCode).toBe(200);
+    expect(response.body).toEqual({ message: 'Other device detected' });
+  });
 });

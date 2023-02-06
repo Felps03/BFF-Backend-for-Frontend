@@ -4,8 +4,8 @@
   "description": "BFF stands for Backend for Frontend, it's an architecture pattern for separating server and client responsibilities.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "start": "node index",
+    "test": "jest",
     "test:coverage": "jest --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
