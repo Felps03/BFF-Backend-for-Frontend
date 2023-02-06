@@ -16,6 +16,4 @@ const apiDataRouter = require('./routes/apiDataRouter');
 
 app.use('/api', apiDataRouter);
 
-app.listen(3000, () => {
-  console.log('Server started on port 3000');
-});
+module.exports = app;

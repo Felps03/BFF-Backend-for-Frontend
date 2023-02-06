@@ -4,8 +4,9 @@
   "description": "BFF stands for Backend for Frontend, it's an architecture pattern for separating server and client responsibilities.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node index",
+    "test:coverage": "jest --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:commit": "commitlint -E HUSKY_GIT_PARAMS",
@@ -42,6 +43,8 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
-    "prettier": "^2.8.3"
+    "jest": "^29.4.1",
+    "prettier": "^2.8.3",
+    "supertest": "^6.3.3"
   }
 }
